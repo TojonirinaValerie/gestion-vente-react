@@ -1,0 +1,53 @@
+$priceWidth: 150px;
+
+.home-table {
+  padding: 4px;
+  border: solid 1px #ebebeb;
+
+  thead {
+    font-weight: 600;
+    background-color: #f8fbfd;
+    height: 30px;
+  }
+  td,
+  th {
+    border-right: solid 1px #ebebeb;
+    padding: 0 4px;
+  }
+  .impair {
+    background-color: #f8fbfd;
+  }
+  .desigantion-col {
+    padding: 2px 0;
+    padding-left: 8px;
+    text-align: left;
+  }
+  .qauntity-col {
+    width: 100px;
+    text-align: right;
+  }
+  .prix-u-col {
+    width: $priceWidth;
+    text-align: right;
+  }
+  .prix-total-col {
+    width: $priceWidth;
+    text-align: right;
+  }
+  .prix-achat-col {
+    width: $priceWidth;
+    text-align: right;
+  }
+  .prix-achat-total-col {
+    width: $priceWidth;
+    text-align: right;
+  }
+  .action-col {
+    width: 80px;
+    text-align: center;
+  }
+  .date-add-col, .date-edit-col {
+    width: 180px;
+    text-align: right;
+  }
+}
